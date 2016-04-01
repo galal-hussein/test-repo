@@ -22,3 +22,8 @@
       required: true
       type: "string"
       default: "ghostpass"
+    - variable: "ghost_url"
+      label: "Ghost url"
+      required: true
+      type: "string"
+      default: "http://example-ghost.com"

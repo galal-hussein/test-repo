@@ -20,6 +20,8 @@ spec:
         value: ${ghost_db_pass}
       - name: GHOST_DB
         value: ${ghost_db}
+      - name: GHOST_URL
+        value: ${ghost_url}
       volumeMounts:
         - name: "ghost-ephemeral-storage"
           mountPath: /var/lib/ghost
