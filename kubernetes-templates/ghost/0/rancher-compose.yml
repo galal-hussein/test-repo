@@ -6,7 +6,7 @@
     - variable: "mysql_root_pass"
       label: "MySQL root password"
       required: true
-      type: "string"
+      type: "password"
     - variable: "ghost_db"
       label: "Ghost database name on mysql"
       required: true
@@ -20,8 +20,9 @@
     - variable: "ghost_db_pass"
       label: "Ghost database password"
       required: true
-      type: "string"
+      type: "password"
       default: "ghostpass"
+      description: "default password is ghostpass"
     - variable: "ghost_url"
       label: "Ghost url"
       required: true
