@@ -28,5 +28,5 @@ spec:
           emptyDir: {}
     metadata:
       labels:
-        secondary: "true"
+        secondary: true
         name: mongo-sec
